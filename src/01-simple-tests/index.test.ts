@@ -16,7 +16,6 @@ describe('simpleCalculator tests', () => {
     expect(simpleCalculator({ a: 1, b: 0, action: Action.Subtract })).toBe(1);
     expect(simpleCalculator({ a: 1, b: 2, action: Action.Subtract })).toBe(-1);
   });
-  console.log(-20 - -62);
 
   test('should multiply two numbers', () => {
     expect(simpleCalculator({ a: -1, b: -2, action: Action.Multiply })).toBe(2);
